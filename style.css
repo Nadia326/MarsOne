@@ -1,0 +1,31 @@
+body {
+  background: url('Красота звездного неба.png');
+  background-size: cover;
+  font-family: cursive;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+table {
+  padding: 4%;
+
+}
+H2 {
+  color: #87CEFA;
+}
+td {
+  color: white;
+  font-size: 150%;
+}
+p {
+  color: #87CEFA;
+  font-size: 150%;
+}

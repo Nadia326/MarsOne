@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Mars One</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="form.js">
+  </script>
+  <script src="index.js">
+  </script>
+  <script src="watch.js">
+  </script>
+  <script src="stars.js"></script>
+</head>
+<body>
+<center>
+<video autoplay loop muted class="bgvideo" id="bgvideo">
+   <source src="Красота звездного неба.mp4" type="video/mp4"></source>
+   </video>
+   <p></p>
+   <H2>Registration for participation in the astronaut selection in the "Mars One" project</H2>
+   <form name="Reg">
+    <table>
+        <tr><td><b>Name:</b></td>
+            <td><input name="Name" size=20></td></tr>
+        <tr><td><b>Surname:</b></td>
+            <td><input name="Surname" size=20></td></tr>
+		<tr><td><b>Sex:</b></td>
+		    <td><b>Male</b><input type="RADIO" name="Sex" value ="Male" checked>
+            <b>Female</b><input type="RADIO" name="Sex" value ="Female"></td></tr>	
+		<tr><td><b>E-mail:</b></td>
+            <td><input name="Email" size=20></td></tr>
+        <tr><td><b>Phone:</b></td>
+	        <td><input name="Phone" size=20></td></tr>
+		
+    </table>
+    <p id='result' style="color: #87CEFA;"></p>
+    <input type="button" value="Register" onClick="if (check()) Complete();">
+    <input type="reset" value="Reset">
+    <p></p>
+    <marquee behavior="alternate" direction="left" bgcolor="F5F5F5">
+    Attention! Registration is valid from November 2013 to December 2017
+  </marquee>
+  <p></p>
+  <p id="watch"></p>
+   </center>
+</body>
+</html>
